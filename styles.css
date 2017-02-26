@@ -134,6 +134,7 @@ header div:first-child p {
 	background-color: rgb(255, 255, 255);
 	color: rgb(255, 255, 255);
 	font-family: monospace;
+	display:none;
 	/*font-size: 1rem;*/
 	}
 
