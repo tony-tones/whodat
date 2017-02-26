@@ -199,7 +199,10 @@
 
   // EventListeners ----------
 
-  keyID.addEventListener('input', listenKey); // Listens for key change
+  keyID.addEventListener('input', function() {
+    listenKey();
+    listenDecode();
+  }); // Listens for key change
   textID.addEventListener('input', listenEncode); // Listens for change in plaintext
   textID.addEventListener('focus', warnKey); // Listens for attempted input in plaintext to activate warning if key is not entered first
   cipherID.addEventListener('input', listenDecode); // Listens for change in ciphertext
