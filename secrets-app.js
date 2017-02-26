@@ -13,7 +13,7 @@
 
   // Functions ----------
 
-  // function headerTransform() { // "Encrypts" header letters and "decrypts" them
+  function headerTransform() { // "Encrypts" header letters and "decrypts" them
     var h1 = document.body.getElementsByTagName('header')[0].getElementsByTagName('div')[0].getElementsByTagName('h1')[0];
     var arrH1Num = [];
     for (var i = 0; i < 7; i++) {
